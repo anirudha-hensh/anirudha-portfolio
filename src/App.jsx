@@ -310,7 +310,7 @@ function App() {
               <div><small>2022 — 2026</small><h3>{PROFILE.education}</h3><p>{PROFILE.university}</p></div>
               <div className="edu-score"><b>{PROFILE.cgpa}</b><span>CGPA</span></div>
             </motion.div>
-            <div className="edu-row"><div><b>95.2%</b><span>Class XII · West Bengal Council</span></div><div><b>81.57%</b><span>Class X · WBBSE</span></div></div>
+            <div className="edu-row"><div><b>95.2%</b><span>Class XII · WBCHSE</span></div><div><b>81.57%</b><span>Class X · WBBSE</span></div></div>
           </div>
         </section>
 
