@@ -151,6 +151,7 @@ function localFallback(message) {
     s.includes("education") ||
     s.includes("degree") ||
     s.includes("college") ||
+    s.includes("graduation") ||
     s.includes("university")
   ) {
     return `Anirudha completed his B.Tech in Computer Science & Engineering from the University of Engineering & Management, Kolkata, in 2026 with a CGPA of 7.94.`;

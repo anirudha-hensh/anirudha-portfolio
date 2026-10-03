@@ -193,7 +193,7 @@ function App() {
       <div className="blob blob-a" /><div className="blob blob-b" />
       <header className="header">
         <button className="brand" onClick={() => go('home')}>
-          <span className="brand-mark">AH</span><span>Anirudha<span className="dot">.</span></span>
+          <span className="brand-mark">AH</span><span>Anirudha Hensh<span className="dot">.</span></span>
         </button>
         <nav className={menu ? 'links open' : 'links'}>
           {['about','skills','projects','education'].map((id,i)=>
