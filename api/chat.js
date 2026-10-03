@@ -86,11 +86,11 @@ function localFallback(message) {
   }
 
   if (
-    s.includes("age") ||
-    s.includes("how old")
-  ) {
-    return `Anirudha is 22 years old.`;
-  }
+  /\bage\b/.test(s) ||
+  s.includes("how old")
+) {
+  return `Anirudha is 22 years old.`;
+}
 
   if (
     s.includes("gender") ||
