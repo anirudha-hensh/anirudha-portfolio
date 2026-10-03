@@ -245,7 +245,7 @@ function App() {
 
         <section className="metric-bar">
           <div><b>2026</b><small>Graduation</small></div>
-          <div><b>7.85</b><small>CGPA</small></div>
+          <div><b>7.94</b><small>CGPA</small></div>
           <div><b>3</b><small>Projects</small></div>
           <div><b>Java</b><small>Core focus</small></div>
         </section>
