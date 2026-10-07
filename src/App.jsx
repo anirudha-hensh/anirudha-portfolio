@@ -37,20 +37,92 @@ const projects = [
     icon:BrainCircuit,
     gradient:'p-violet',
     description:'An AI-assisted system that extracts relevant skills from resumes and compares them with job descriptions to identify meaningful matches.',
-    stack:['Python','NLP','Gemini API'],
-    details:'Academic group project focused on prompt-based skill extraction, job-description matching and candidate/job analysis.',
+    stack:['Python','NLP','AI','Gemini API'],
+    details: `
+The AI-Based ATS Resume Analysis System is an academic group project designed to analyze resumes against job descriptions and provide AI-assisted insights into candidate-job compatibility. The project focuses on processing resume and job-description content to identify relevant skills and compare candidate capabilities with the requirements of a particular role.
+
+The system processes the information contained in resumes and job descriptions to identify relevant skills and generate structured analysis. NLP concepts are used to work with the textual content, while AI-assisted processing helps analyze and compare the extracted information.
+
+As part of the project, prompt design was used to guide the AI in extracting relevant candidate skills and comparing them with the skills and requirements mentioned in job descriptions. The objective is to help understand how closely a candidate's profile aligns with a particular job description.
+
+The project also involved testing different inputs, evaluating generated outputs, analyzing requirements, and documenting the system as part of a four-member academic team.
+
+Key Features:
+• Resume content analysis
+• Job-description analysis
+• Relevant skill identification
+• Resume-to-job requirement comparison
+• AI-assisted candidate/job analysis
+• Prompt-based skill extraction and comparison
+• Structured analysis of resume and job-description information
+• Output testing and evaluation
+
+My Contribution:
+• Contributed to resume and job-description processing workflows
+• Worked on prompt design for AI-assisted skill extraction and comparison
+• Contributed to analysis of candidate skills against job requirements
+• Participated in application testing and output evaluation
+• Contributed to requirement analysis and project documentation
+
+Technology Stack:
+Python, NLP, AI, Google Gemini API.
+`,
     github:'https://github.com/anirudha-hensh/ATS-Resume-Analyzer'
   },
   {
-    title:'Student Management System',
-    cat:'JAVA / DATABASE',
-    icon:Database,
-    gradient:'p-cyan',
-    description:'A database-driven student record application supporting create, read, update and delete workflows.',
-    stack:['Core Java','MySQL','JDBC'],
-    details:'Built around structured student record handling and database connectivity.',
-    github:'https://github.com/anirudha-hensh/student-management-system-java'
-  },
+  title: 'Student Management System',
+  cat: 'JAVA / DATABASE',
+  icon: Database,
+  gradient: 'p-cyan',
+
+  description: 'A role-based web application with separate Admin and Student workflows, featuring student registration, approval-based onboarding, profile management, authentication, and centralized student administration.',
+
+  stack: [
+    'Java',
+    'Spring Boot',
+    'MySQL',
+    'JDBC',
+    'REST APIs',
+    'JWT',
+    'HTML',
+    'CSS',
+    'JavaScript'
+  ],
+
+  details: `
+The Student Management System is a role-based web application designed to provide separate and controlled workflows for Students and Administrators. The system is built to simplify student registration, verification, information management, and administrative control through dedicated user panels.
+
+Students can create their own accounts and securely log in using their individual credentials. After registration, students can provide and manage their personal information and submit a registration request for administrative verification. A student does not immediately become an approved user; the submitted request must first be reviewed by an administrator.
+
+The Admin panel provides centralized control over the student management process. Administrators can view incoming student registration requests, review the submitted information, and decide whether to approve or reject each request. Once approved, the student can access the appropriate features of the system.
+
+Administrators can also manage existing student information, including adding new student records, updating student details, and removing student records when required. The system also supports the creation of additional administrator accounts.
+
+Separate authentication and access control are implemented for Students and Administrators so that each user type can access only the features relevant to their role. Students can manage their own account credentials, while administrators have access to administrative functions and student management features.
+
+The application uses MySQL for persistent storage and JDBC for database connectivity, while Spring Boot and REST APIs support the web application architecture. JWT is used as part of the authentication and authorization mechanism.
+
+Key Features:
+• Separate Student and Admin panels
+• Student account registration and login
+• Student information management
+• Registration request and approval workflow
+• Admin approval/rejection of student requests
+• Admin dashboard for centralized management
+• Add, update and remove student information
+• Additional administrator account creation
+• Separate authentication and access control
+• User profile and password management
+• MySQL database integration
+• REST API-based application architecture
+• JWT-based authentication
+
+Technology Stack:
+Java, Spring Boot, MySQL, JDBC, REST APIs, JWT, HTML, CSS and JavaScript.
+`,
+
+  github: 'https://github.com/anirudha-hensh/student-management-system'
+},
   // {
   //   title:'Attendance Management System',
   //   cat:'JAVA SWING',
