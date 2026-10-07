@@ -305,6 +305,7 @@ function App() {
             <div className="hero-orb"><span>AH<span className="pink">.</span></span></div>
             <div className="orb-ring ring1"/><div className="orb-ring ring2"/><div className="orb-ring ring3"/>
             <motion.div className="float-card java" animate={{y:[0,-10,0]}} transition={{duration:4,repeat:Infinity,ease:'easeInOut'}}><span>☕</span><b>Java</b><small>Core + JDBC</small></motion.div>
+            <motion.div className="float-card spring" animate={{y:[0,9,0]}} transition={{duration:4.2,repeat:Infinity,ease:'easeInOut'}}><span>🌱</span><b>Spring Boot</b><small>REST APIs</small></motion.div>
             <motion.div className="float-card ai" animate={{y:[0,10,0]}} transition={{duration:4.6,repeat:Infinity,ease:'easeInOut'}}><BrainCircuit size={18}/><b>AI / NLP</b><small>Academic project</small></motion.div>
             <motion.div className="float-card db" animate={{y:[0,-7,0]}} transition={{duration:3.7,repeat:Infinity,ease:'easeInOut'}}><Database size={18}/><b>MySQL</b><small>JDBC + SQL</small></motion.div>
             <div className="terminal-card">
